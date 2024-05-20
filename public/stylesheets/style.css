@@ -5,7 +5,7 @@ body {
 }
 
 ul {
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 .menu-principal {
@@ -14,7 +14,7 @@ ul {
     height: 60px;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -26,7 +26,7 @@ main {
     width: 70%;
 }
 
-.redes-sociais ul li{
+.redes-sociais ul li {
     margin-left: 25px;
     display: inline-block;
     float: left;
@@ -58,11 +58,11 @@ main {
     height: 50px;
 }
 
-.menu ul li:hover{
+.menu ul li:hover {
     border-bottom: 3px solid #00bac5;
 }
 
-.menu ul li a:hover{
+.menu ul li a:hover {
     color: #00bac5;
 }
 
@@ -84,7 +84,7 @@ main {
     float: right;
 }
 
-.search input{
+.search input {
     background-image: url('../images/icone-search.png');
     background-repeat: no-repeat;
     height: 36px;
@@ -128,7 +128,7 @@ button.slick-next {
 }
 
 .slick-list {
-    width: 100%!important;
+    width: 100% !important;
 }
 
 .slick-initialized {
@@ -146,7 +146,7 @@ button.slick-next {
 
 }
 
-.slick-dots{
+.slick-dots {
     margin: 0 auto;
     width: 50%;
     position: absolute;
@@ -161,4 +161,23 @@ li.slick-active button {
 .slick-dots li {
     padding-left: 10px;
     display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #646466;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
 }
