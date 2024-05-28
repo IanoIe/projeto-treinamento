@@ -232,6 +232,14 @@ h3 {
     background-position: center;
 }
 
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+}
+
 .col-4 {
     float: left;
     width: 25%;
@@ -248,4 +256,85 @@ h3 {
 .col-4 img:hover {
     margin-top: 10px!important;
     position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img{
+    margin-top: 50px;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('../images/footer.png');
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url('../images/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+.footer-2 p{
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p{
+    width: 90%;
+    text-align: left;
+}
+
+.clock {
+    color: #898989!important;
+}
+
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../images/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before {
+    content: '';
+    width: 17px;
+    height:24px;
+    display: inline-block;
+    background-image: url('../images/local.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.emailico:before{
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/email.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.telefoneico:before{
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../images/telefoneico.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
 }
