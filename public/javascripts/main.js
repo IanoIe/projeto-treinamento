@@ -8,3 +8,4 @@ $('.slider-principal').slick({
     autoplaySpeed: 2000
   });
       
+
