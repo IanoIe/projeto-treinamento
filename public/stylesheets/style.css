@@ -342,5 +342,14 @@ h3 {
 
 /* Tranalho de rodapé */
 
+.footer-2 > .content{
+    float: left;
+    padding: 12px;
+    width: 70%;
+}
+
+.footer-2 > .redes-sociais {
+    width: 27%;
+}
 
 /* FIm de trabalho de rodapé*/
