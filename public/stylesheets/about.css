@@ -26,12 +26,12 @@ main, .content {
     width: 70%;
 }
 
-.redes.sociais {
+.redes-sociais {
     width: 25%;
     float: right;
 }
 
-.redes.sociais ul li {
+.redes-sociais ul li {
     margin-left: 25px;
     display: inline-block;
     float: left;
@@ -118,7 +118,7 @@ main, .content {
 
 .corpo-pagina h1{
     animation-delay: 3s;
-animation-delay: 2s, 4ms;
+    animation-delay: 2s, 4ms;
 
     text-align: center;
 }
