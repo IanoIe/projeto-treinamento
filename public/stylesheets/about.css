@@ -105,7 +105,8 @@ main, .content {
 
 
 .corpo-pagina {
-    margin-top: 30px;
+    background-image: url('../images/fundo.png');
+    margin-top: 10%;
     height: 100%;
     width: 100%;
 }
@@ -117,10 +118,22 @@ main, .content {
 }
 
 .corpo-pagina h1{
-    animation-delay: 3s;
-    animation-delay: 2s, 4ms;
-
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #eaeeea;
     text-align: center;
+}
+
+.corpo-pagina p{
+    border: 1px solid none;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #f0f5f7;
 }
 
 
@@ -146,6 +159,7 @@ main, .content {
 }
 
 .bloco-logos {
+    margin-top: 1%;
     height: 170px;
 }
 
